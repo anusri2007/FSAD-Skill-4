@@ -1,12 +1,13 @@
 package com.fsad.model;
 
 public class Student {
+
     private int studentId;
     private String name;
     private String course;
     private int year;
 
-    // Constructor Injection
+    // Constructor Injection (XML)
     public Student(int studentId, String name, String course, int year) {
         this.studentId = studentId;
         this.name = name;
